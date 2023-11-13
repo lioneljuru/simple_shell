@@ -74,7 +74,7 @@ int _strcspn(char *str1, char *str2)
 	int len = 0;
 	int i;
 
-	for (i = 0, str1[i] != '\0'; i++)
+	for (i = 0; str1[i] != '\0'; i++)
 	{
 		if (_strchr(str2, str1[i]) != NULL)
 			break;
