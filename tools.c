@@ -33,7 +33,7 @@ char *_strtok_r(char *string, char *delim, char **save_ptr)
 	}
 	*finish = '\0';
 	*save_ptr = finish + 1;
-	return (srting);
+	return (string);
 }
 
 /**
